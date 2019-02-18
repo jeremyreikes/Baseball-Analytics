@@ -1,0 +1,1 @@
+\copy (select * from starters2014 order by pitcherId DESC, gameString, inning ASC) To '/vagrant/project/2014_Starter_Order.csv' DELIMITER ',' CSV HEADER
